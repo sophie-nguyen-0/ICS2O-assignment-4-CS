@@ -39,13 +39,13 @@ class Program
             {
                 subtotal = small + ketchup;
                 total = subtotal + (subtotal * TAXRATE);
-                Console.WriteLine(size + ": $" + Math.Round(small,2) + "  " + sauce + ": $" + ketchup + "  subtotal: $" + Math.Round(subtotal,2) + "  total: $" + Math.Round(total,2));
+                Console.WriteLine(size + ": $" + Math.Round(small, 2) + "  " + sauce + ": $" + ketchup + "  subtotal: $" + Math.Round(subtotal, 2) + "  total: $" + Math.Round(total, 2));
             }
             else if (sauce == "mustard")
             {
                 subtotal = small + mustard;
                 total = subtotal + (subtotal * TAXRATE);
-                Console.WriteLine(size + ": $" + Math.Round(small,2) + "  " + sauce + ": $" + mustard + "  subtotal: $" + Math.Round(subtotal,2) + "  total: $" + Math.Round(total,2));
+                Console.WriteLine(size + ": $" + Math.Round(small, 2) + "  " + sauce + ": $" + mustard + "  subtotal: $" + Math.Round(subtotal, 2) + "  total: $" + Math.Round(total, 2));
             }
             else if (sauce == "relish")
             {
@@ -71,29 +71,29 @@ class Program
             {
                 subtotal = medium + ketchup;
                 total = subtotal + (subtotal * TAXRATE);
-                Console.WriteLine(size + ": $" + Math.Round(medium,2) + "  " + sauce + ": $" + Math.Round(ketchup) + "  subtotal: $" + Math.Round(subtotal,2) + "  total: $" + Math.Round(total,2));
+                Console.WriteLine(size + ": $" + Math.Round(medium, 2) + "  " + sauce + ": $" + Math.Round(ketchup, 2) + "  subtotal: $" + Math.Round(subtotal, 2) + "  total: $" + Math.Round(total, 2));
             }
             else if (sauce == "mustard")
             {
                 subtotal = medium + mustard;
                 total = subtotal + (subtotal * TAXRATE);
-                Console.WriteLine(size + ": $" + Math.Round(medium,2) + "  " + sauce + ": $" + mustard + "  subtotal: $" + Math.Round(subtotal,2) + "  total: $" + Math.Round(total,2));
+                Console.WriteLine(size + ": $" + Math.Round(medium, 2) + "  " + sauce + ": $" + mustard + "  subtotal: $" + Math.Round(subtotal, 2) + "  total: $" + Math.Round(total, 2));
             }
             else if (sauce == "relish")
             {
                 subtotal = medium + relish;
                 total = subtotal + (subtotal * TAXRATE);
-                Console.WriteLine(size + ": $" + Math.Round(medium,2) + "  " + sauce + ": $" + Math.Round(relish,2) + "  subtotal: $" + Math.Round(subtotal,2) + "  total: $" + Math.Round(total,2));
+                Console.WriteLine(size + ": $" + Math.Round(medium, 2) + "  " + sauce + ": $" + Math.Round(relish, 2) + "  subtotal: $" + Math.Round(subtotal, 2) + "  total: $" + Math.Round(total, 2));
             }
             else if (sauce == "sriracha")
             {
                 subtotal = medium + sriracha;
                 total = subtotal + (subtotal * TAXRATE);
-                Console.WriteLine(size + ": $" + Math.Round(medium,2) + "  " + sauce + ": $" + Math.Round(sriracha,2) + "  subtotal: $" + Math.Round(subtotal,2) + "  total: $" + Math.Round(total,2));
+                Console.WriteLine(size + ": $" + Math.Round(medium, 2) + "  " + sauce + ": $" + Math.Round(sriracha,2) + "  subtotal: $" + Math.Round(subtotal, 2) + "  total: $" + Math.Round(total, 2));
             }
             else {
                 total = medium + (medium * TAXRATE);
-                Console.WriteLine(size + ": $" + Math.Round(medium,2) + "  none: $0   subtotal: $" + Math.Round(medium,2) + "  total: $" + Math.Round(total,2));
+                Console.WriteLine(size + ": $" + Math.Round(medium, 2) + "  none: $0   subtotal: $" + Math.Round(medium, 2) + "  total: $" + Math.Round(total, 2));
             }
         }
         else
@@ -102,29 +102,29 @@ class Program
             {
                 subtotal = large + ketchup;
                 total = subtotal + (subtotal * TAXRATE);
-                Console.WriteLine(size + ": $" + Math.Round(large,2) + "  " + sauce + ": $" + Math.Round(ketchup) + "  subtotal: $" + Math.Round(subtotal,2) + "  total: $" + Math.Round(total,2));
+                Console.WriteLine(size + ": $" + Math.Round(large, 2) + "  " + sauce + ": $" + Math.Round(ketchup, 2) + "  subtotal: $" + Math.Round(subtotal, 2) + "  total: $" + Math.Round(total, 2));
             }
             else if (sauce == "mustard")
             {
                 subtotal = large + mustard;
                 total = subtotal + (subtotal * TAXRATE);
-                Console.WriteLine(size + ": $" + Math.Round(large,2) + "  " + sauce + ": $" + mustard + "  subtotal: $" + Math.Round(subtotal,2) + "  total: $" + Math.Round(total,2));
+                Console.WriteLine(size + ": $" + Math.Round(large, 2) + "  " + sauce + ": $" + mustard + "  subtotal: $" + Math.Round(subtotal, 2) + "  total: $" + Math.Round(total, 2));
             }
             else if (sauce == "relish")
             {
                 subtotal = large + relish;
                 total = subtotal + (subtotal * TAXRATE);
-                Console.WriteLine(size + ": $" + Math.Round(large,2) + "  " + sauce + ": $" + Math.Round(relish,2) + "  subtotal: $" + Math.Round(subtotal,2) + "  total: $" + Math.Round(total,2));
+                Console.WriteLine(size + ": $" + Math.Round(large, 2) + "  " + sauce + ": $" + Math.Round(relish, 2) + "  subtotal: $" + Math.Round(subtotal, 2) + "  total: $" + Math.Round(total, 2));
             }
             else if (sauce == "sriracha")
             {
                 subtotal = large + sriracha;
                 total = subtotal + (subtotal * TAXRATE);
-                Console.WriteLine(size + ": $" + Math.Round(large,2) + "  " + sauce + ": $" + Math.Round(sriracha,2) + "  subtotal: $" + Math.Round(subtotal,2) + "  total: $" + Math.Round(total,2));
+                Console.WriteLine(size + ": $" + Math.Round(large, 2) + "  " + sauce + ": $" + Math.Round(sriracha, 2) + "  subtotal: $" + Math.Round(subtotal, 2) + "  total: $" + Math.Round(total, 2));
             }
             else {
                 total = large + (large * TAXRATE);
-                Console.WriteLine(size + ": $" + Math.Round(large,2) + "  none: $0   subtotal: $" + Math.Round(large,2) + "  total: $" + Math.Round(total,2));
+                Console.WriteLine(size + ": $" + Math.Round(large, 2) + "  none: $0   subtotal: $" + Math.Round(large, 2) + "  total: $" + Math.Round(total, 2));
             }
         }
         Console.WriteLine("\nDone.");
