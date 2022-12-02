@@ -59,7 +59,8 @@ class Program
                 total = subtotal + (subtotal * TAXRATE);
                 Console.WriteLine(size + ": $" + Math.Round(small, 2) + "  " + sauce + ": $" + sriracha + "  subtotal: $" + Math.Round(subtotal, 2) + "  total: $" + Math.Round(total, 2));
             }
-            else {
+            else
+            {
                 total = small + (small * TAXRATE);
                 Console.WriteLine(size + ": $" + Math.Round(small, 2) + "  none: $0   subtotal: $" + Math.Round(small, 2) + "  total: $" + Math.Round(total, 2));
             }
@@ -91,7 +92,8 @@ class Program
                 total = subtotal + (subtotal * TAXRATE);
                 Console.WriteLine(size + ": $" + Math.Round(medium, 2) + "  " + sauce + ": $" + Math.Round(sriracha,2) + "  subtotal: $" + Math.Round(subtotal, 2) + "  total: $" + Math.Round(total, 2));
             }
-            else {
+            else
+            {
                 total = medium + (medium * TAXRATE);
                 Console.WriteLine(size + ": $" + Math.Round(medium, 2) + "  none: $0   subtotal: $" + Math.Round(medium, 2) + "  total: $" + Math.Round(total, 2));
             }
