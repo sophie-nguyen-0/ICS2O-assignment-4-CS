@@ -51,17 +51,17 @@ class Program
             {
                 subtotal = small + relish;
                 total = subtotal + (subtotal * TAXRATE);
-                Console.WriteLine(size + ": $" + Math.Round(small,2) + "  " + sauce + ": $" + relish + "  subtotal: $" + Math.Round(subtotal,2) + "  total: $" + Math.Round(total,2));
+                Console.WriteLine(size + ": $" + Math.Round(small, 2) + "  " + sauce + ": $" + relish + "  subtotal: $" + Math.Round(subtotal, 2) + "  total: $" + Math.Round(total, 2));
             }
             else if (sauce == "sriracha")
             {
                 subtotal = small + sriracha;
                 total = subtotal + (subtotal * TAXRATE);
-                Console.WriteLine(size + ": $" + Math.Round(small,2) + "  " + sauce + ": $" + sriracha + "  subtotal: $" + Math.Round(subtotal,2) + "  total: $" + Math.Round(total,2));
+                Console.WriteLine(size + ": $" + Math.Round(small, 2) + "  " + sauce + ": $" + sriracha + "  subtotal: $" + Math.Round(subtotal, 2) + "  total: $" + Math.Round(total, 2));
             }
             else {
                 total = small + (small * TAXRATE);
-                Console.WriteLine(size + ": $" + Math.Round(small,2) + "  none: $0   subtotal: $" + Math.Round(small,2) + "  total: $" + Math.Round(total,2));
+                Console.WriteLine(size + ": $" + Math.Round(small, 2) + "  none: $0   subtotal: $" + Math.Round(small, 2) + "  total: $" + Math.Round(total, 2));
             }
         }
         //medium size
